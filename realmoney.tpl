@@ -5,9 +5,9 @@
         <strong>Total real money loss:</strong>
       </td>
       <td class="realmoney-cost">
-        {$usdLoss} $ (Dollar)<br />
-        {$euroLoss} &euro; (Euro)<br />
-        {$gbpLoss} &pound; (Pound)
+        {foreach from=$prices item="price"}
+          {$price}<br />
+        {/foreach}
       </td>
     </tr>
   </table>

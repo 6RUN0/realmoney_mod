@@ -1,0 +1,9 @@
+.realmoney-checkbox {
+  float: left;
+  width: 33%;
+}
+
+.realmoney-err-price,
+.realmoney-err-currency {
+  border: 1px solid red !important;
+}
