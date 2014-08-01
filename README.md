@@ -22,8 +22,8 @@ $ ln -s ../mods/realmoney_mod/cron_update_rates.php
 
 ## Screenshot
 
-  * [Kill detail page](https://github.com/6RUN0/realmoney_mod/screenshot/kill_detail.png)
-  * [Settings page](https://github.com/6RUN0/realmoney_mod/screenshot/settings_realmoney_mod.png)
+  * [Kill detail page](https://github.com/6RUN0/realmoney_mod/tree/master/screenshot/kill_detail.png)
+  * [Settings page](https://github.com/6RUN0/realmoney_mod/tree/master/screenshot/settings_realmoney_mod.png)
 
 ## About
 Mod created by [Sir Quentin](http://www.back-to-yarrr.de).
