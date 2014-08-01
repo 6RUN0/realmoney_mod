@@ -118,7 +118,7 @@ else {
   $usage_currency .= '<br /><div><input type="submit" value="Submit" name="save_settings" /></div></form>';
 }
 
-$page->addHeader('<link rel="stylesheet" type="text/css" href="mods/realmoney_mod/css/settings.css"');
+$page->addHeader('<link rel="stylesheet" type="text/css" href="' . KB_HOST . '/mods/realmoney_mod/css/settings.css" />');
 $page->setContent("${message}<br />${update_form}<br />${usage_currency}");
 $page->addContext($menubox->generate());
 $page->generate();

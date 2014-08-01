@@ -47,7 +47,7 @@ class realmoney {
 
     //var_dump($prices);
     $smarty->assign('prices', $prices);
-    $page->page->addHeader('<link rel="stylesheet" type="text/css" href="' . KB_HOST . '/mods/realmoney_mod/css/realmoney.css"'); 
+    $page->page->addHeader('<link rel="stylesheet" type="text/css" href="' . KB_HOST . '/mods/realmoney_mod/css/realmoney.css" />'); 
     $html .= $smarty->fetch(get_tpl('./mods/realmoney_mod/realmoney.tpl'));
     return $html;
   }
