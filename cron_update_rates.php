@@ -1,6 +1,10 @@
 #!/usr/bin/php
 <?php
 
+/**
+ * $Id$
+ */
+
 @error_reporting(E_ERROR);
 
 if(function_exists('set_time_limit'))

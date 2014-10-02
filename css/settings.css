@@ -1,3 +1,27 @@
+/**
+ *  $Id$
+ */
+.realmoney-mod-msg {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.realmoney-mod-err {
+  background: rgba(255, 0, 0, .5);
+}
+
+.realmoney-mod-warn {
+  background: rgba(255, 165, 0, .5);
+}
+
+.realmoney-mod-ok {
+  background: rgba(0, 128, 0, .5);
+}
+
 .realmoney-checkbox {
   float: left;
   width: 33%;

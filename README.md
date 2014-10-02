@@ -1,5 +1,11 @@
 # Real Money Mod
 
+## Update
+Remove old variables
+```sql
+DELETE FROM kb3_config WHERE cfg_key LIKE 'realmoney_mod_%';
+```
+
 ## Install
 
 Variant 1:
@@ -30,3 +36,5 @@ Mod created by [Sir Quentin](http://www.back-to-yarrr.de).
 See [original version of mod](http://www.evekb.org/forum/viewtopic.php?&t=18397).
 
 Mod patched by [boris_t](https://github.com/6RUN0) (boris@talovikov.ru).
+
+$Id$

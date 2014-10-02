@@ -1,3 +1,4 @@
+<!-- $Id$ -->
 <div class="kl-detail-shipdetails realmoney-wrap">
   <table class="kb-table">
     <tr class="{cycle name="ccl"} summary totalloss">
