@@ -21,7 +21,7 @@
           <input type="checkbox" value="{$currency}" name="usage_currency[{$currency}]" {if isset($realmoney_mod_usage_currency.$currency)}checked="checked"{/if}/>
           <label for name="{$currency}">{$currency}</label>
         </div>
-      {/foreach} 
+      {/foreach}
     </fieldset>
   </div>
   <div><input type="submit" value="Save" name="submit" /></div>
