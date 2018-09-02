@@ -55,9 +55,9 @@ class RealMoney
             $kill = new Kill($page->kll_external_id, true);
         }
 
-        $plex = new Item(29668);
+        $plex = new Item(44992);
         // Loss =  Total ISK / PLEX
-        $loss_plex = $kill->calculateISKLoss() / intval($plex->getAttribute('price'));
+        $loss_plex = $kill->calculateISKLoss() / intval($plex->getAttribute('price') * 500);
         $prices[] = self::_format($loss_plex, 3) . ' PLEX';
         if (!empty($plex_real['price']) && !empty($plex_real['currency'])) {
             $loss_money = $loss_plex * $plex_real['price'];
